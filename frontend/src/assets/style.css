@@ -1,0 +1,35 @@
+a {
+  outline: 0;
+}
+
+:root {
+  --medium-purple: hsla(245, 49%, 98%, 1);
+  --feldgrau: hsla(169, 20%, 33%, 1);
+  --timberwolf: hsla(33, 8%, 86%, 1);
+  --midnight-blue: hsla(240, 83%, 32%, 1);
+}
+
+.bg-color01 {
+  background-color: var(--midnight-blue);
+}
+
+.bg-color02 {
+  background-color: var(--timberwolf);
+}
+
+.bg-color03 {
+  background-color: var(--medium-purple);
+}
+
+.bg-color04 {
+  background-color: var(--feldgrau);
+}
+
+.custom-link {
+  color: white;
+}
+
+.custom-link:hover {
+  text-decoration: none;
+  color: white;
+}
